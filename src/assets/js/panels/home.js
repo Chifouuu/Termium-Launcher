@@ -174,7 +174,7 @@ class Home {
         })
     }
 
-    async initStatusServer() {
+    async initServer() {
         let nameServer = document.querySelector('.server-text .name');
         let serverMs = document.querySelector('.server-text .desc');
         let playersConnected = document.querySelector('.etat-text .text');

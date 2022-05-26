@@ -22,8 +22,8 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" }
+            { "message": "Termium Launcher", "author": "Chifou" },
+            { "message": "Termium Launcher", "author": "Chifou" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -50,7 +50,7 @@ class Splash {
         }).catch(err => {
             console.log("impossible de charger le config.json");
             console.log(err);
-            return this.shutdown("Aucune connexion internet détectée,<br>veuillez réessayer ultérieurement.");
+            return this.shutdown("Nous n'arrivons pas à se connecter à internet,<br>veuillez réessayer ultérieurement.");
         })
     }
 
