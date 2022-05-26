@@ -73,12 +73,12 @@
         "win": {
             "productName": "Termium Launcher",
             "companyName": "Termium Launcher",
-            "copyright": "copyright@Termium2022",
+            "copyright": "Copyright@TermiumIndustries2022",
             "icon": "src/assets/images/icon.ico"
         },
         "mac": {
             "displayName": "Termium-Launcher",
-            "copyright": "copyright@Termium2022",
+            "copyright": "Copyright@TermiumIndustries2022",
             "plistStrings": {
                 "CFBundleIdentifier": "Termium-Launcher"
             }
