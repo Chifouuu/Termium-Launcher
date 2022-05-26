@@ -1,1 +1,2 @@
-<h1>Files server</h1>
+<h1>Fichiers Serveur update / news</h1>
+<p>Launcheur repris de l'idée de Luuxis</p>
